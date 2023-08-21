@@ -1,10 +1,11 @@
-
-import Image from 'next/image'
+"use client";
+import Hero from "@/components/Home/Hero";
+import Image from "next/image";
 
 export default function Home() {
   return (
-    <div>
-      Yo 
+    <div className="p-5 sm:px-10 md:py-20">
+      <Hero />
     </div>
-  )
+  );
 }
