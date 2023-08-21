@@ -8,7 +8,21 @@ function Hero() {
           className="text-[40px] md:text-[60px] 
             font-bold "
         >
-          Premium Car <span className="text-blue-600">Rental</span> in Your Area
+          <div className="wrapper">
+            <h3>Premium Car</h3>
+            <ul className="dynamic-txts">
+              <li>
+                <span>Road</span>
+              </li>
+              <li>
+                <span>Rover</span>
+              </li>
+              <li>
+                <span>Rentals</span>
+              </li>
+            </ul>
+          </div>{" "}
+          in Your Area
         </h2>
         <h2 className="text-[20px] text-gray-500 pr-20 mt-5">
           Book the selected car effortlessly, Pay for driving only, Book the Car
@@ -22,6 +36,7 @@ function Hero() {
           Explore Cars
         </button>
       </div>
+
       <div>
         <Image
           src="/hero.jpeg"
