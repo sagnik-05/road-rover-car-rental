@@ -42,7 +42,7 @@ function Hero() {
           src="/hero.jpeg"
           alt="hero"
           width={400}
-          height={500}
+          height={400}
           className="w-full object-cover align-middle"
         />
       </div>
