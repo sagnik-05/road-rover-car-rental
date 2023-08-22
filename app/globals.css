@@ -18,17 +18,18 @@
 .wrapper {
   display: flex;
 }
-.wrapper .static-txt {
+/* .wrapper .static-txt {
   color: #fff;
   font-size: 60px;
   font-weight: 400;
-}
+} */
 .wrapper .dynamic-txts {
   margin-left: 15px;
   height: 90px;
   line-height: 90px;
   overflow: hidden;
 }
+
 .dynamic-txts li {
   list-style: none;
   color: #8b88ff;

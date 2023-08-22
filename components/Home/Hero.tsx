@@ -28,11 +28,17 @@ function Hero() {
           Book the selected car effortlessly, Pay for driving only, Book the Car
           Now
         </h2>
-        <button
-          className="p-2 mt-5 bg-blue-500 text-white
-            px-4 rounded-full 
-            hover:scale-105 transition-all"
-        >
+
+        {/* Options for Button Colours */}
+
+        {/* <button className="bg-gradient-to-r from-sky-400 via-blue-500 to-teal-400 text-white border-0 p-2 mt-5 focus:outline-none hover:bg-blue-600 px-4 rounded-full transition-all"> */}
+        {/* <button className="bg-gradient-to-r from-sky-500 via-blue-500 to-cyan-500 text-white border-0 p-2 mt-5 focus:outline-none hover:bg-blue-600 px-4 rounded-full transition-all"> */}
+        {/* <button
+          className="bg-gradient-to-r from-blue-300 via-blue-500 to-blue-700 text-white border-0
+ p-2 mt-5 focus:outline-none hover:bg-blue-600 px-4 rounded-full transition-all"
+        > */}
+
+        <button className="bg-gradient-to-r from-teal-300 via-blue-300 to-indigo-400 text-gray-800 border-0 p-2 mt-5 focus:outline-none hover:bg-blue-600 px-4 rounded-full transition-all">
           Explore Cars
         </button>
       </div>
