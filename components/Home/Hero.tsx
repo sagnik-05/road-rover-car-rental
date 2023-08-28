@@ -8,21 +8,11 @@ function Hero() {
           className="text-[40px] md:text-[60px] 
             font-bold "
         >
-          <div className="wrapper">
+          <div className="container text-gray-400">
             <h3>Premium Car</h3>
-            <ul className="dynamic-txts">
-              <li>
-                <span>Road</span>
-              </li>
-              <li>
-                <span>Rover</span>
-              </li>
-              <li>
-                <span>Rentals</span>
-              </li>
-            </ul>
-          </div>{" "}
-          in Your Area
+            <div className="typed-out mt-2 mb-2 bg-gradient-to-r from-blue-600 via-green-400 to-indigo-400 inline-block text-transparent bg-clip-text">Road Rover Rentals</div>
+            <h3>in Your Area</h3>
+          </div>
         </h2>
         <h2 className="text-[20px] text-gray-500 pr-20 mt-5">
           Book the selected car effortlessly, Pay for driving only, Book the Car

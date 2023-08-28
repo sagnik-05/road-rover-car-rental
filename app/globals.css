@@ -15,56 +15,48 @@
     --background-end-rgb: 0, 0, 0;
   }
 }
-.wrapper {
-  display: flex;
+/* .container{
+  color: white;
+  display: inline-block;
 }
-/* .wrapper .static-txt {
-  color: #fff;
-  font-size: 60px;
-  font-weight: 400;
-} */
-.wrapper .dynamic-txts {
-  margin-left: 15px;
-  height: 90px;
-  line-height: 90px;
+.typed-out{
   overflow: hidden;
-}
-
-.dynamic-txts li {
-  list-style: none;
-  color: #8b88ff;
-  font-size: 60px;
-  font-weight: 500;
-  position: relative;
-  top: 0;
-  animation: slide 8s steps(4) infinite;
-}
-@keyframes slide {
-  100% {
-    top: -360px;
-  }
-}
-.dynamic-txts li span {
-  position: relative;
-  margin: 5px 0;
   line-height: 90px;
-}
-.dynamic-txts li span::after {
-  content: "";
-  position: absolute;
-  left: 0;
-  height: 100%;
-  width: 100%;
-  background: #fff;
-  border-left: 2px solid #8b88ff;
-  animation: typing 2s steps(10) infinite;
+  border-right: .15em solid rgb(24, 187, 237);
+  white-space: nowrap;
+  animation: 
+    typing 2s forwards;
+  font-size: 60px;
+  width: 0;
 }
 @keyframes typing {
-  40%,
-  60% {
-    left: calc(100% + 30px);
-  }
-  100% {
-    left: 0;
-  }
+  from { width: 0 }
+  to { width: 69% }
+} */
+/* .container {
+  color: white;
+  display: inline-block;
 }
+
+.typed-out {
+  overflow: hidden;
+  line-height: 90px;
+  border-right: .15em solid transparent; 
+  white-space: nowrap;
+  animation: 
+    typing 4s infinite, 
+    blinkBorder 1s infinite; 
+  font-size: 60px;
+  width: 0;
+}
+
+@keyframes typing {
+  from { width: 0; }
+  to { width: 72%; }
+}
+
+@keyframes blinkBorder {
+  50% {
+    border-color: rgb(24, 187, 237);
+  }
+} */
