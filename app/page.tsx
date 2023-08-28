@@ -5,6 +5,7 @@ import SearchInput from "@/components/Home/SearchInput";
 import Image from "next/image";
 import { useEffect, useState } from "react";
 import { getCarsList } from "@/service";
+import CarsList from "@/components/Home/CarsList";
 
 export default function Home() {
   const [carsList, setCarsList] = useState<any>([])
@@ -20,6 +21,7 @@ export default function Home() {
       <Hero />
       <SearchInput />
       <CarsFilterOption />
+      <CarsList carsList={carsList}/>
     </div>
   );
 }
