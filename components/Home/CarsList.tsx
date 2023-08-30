@@ -1,11 +1,11 @@
 import React from 'react'
-
+import CarCard from './CarCard'
 function CarsList(props:any) {
   return (
     <div>
       {props.carsList.map((car:any, index:number)=>(
         <div>
-            {car.name}
+            <CarCard car={car}/>
         </div>
       ))}
     </div>
